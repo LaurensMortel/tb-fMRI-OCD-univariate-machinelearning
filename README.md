@@ -4,28 +4,31 @@ This repository accompanies the ENIGMA-OCD manuscript available in [this preprin
 
 ### Structure
 
- -  `1_create_input_features.py`
- -  `2_univariate_CBT_response_analyses.R`
- -  `2-1_create_plots_univariate_sensitivity_analyses.R`
- -  `3-1a_syntax_RBA_ROI.sh`
- -  `3-1b_syntax_RBA_ROI_COMBAT.sh`
- -  `3-1c_submit_sbatch_RBA_ROI.sh`
- -  `3-2a_syntax_RBA_whole-brain.sh`
- -  `3-2b_syntax_RBA_whole-brain_COMBAT.sh`
- -  `3-2c_submit_sbatch_RBA_whole-brain.sh`
- -  `4a_improve_RBA_ridge_plots_ROI.R`
- -  `4b_improve_RBA_ridge_plots_whole-brain.R`
- -  `4c_extract_P_plus_values_SchaeferMelbourne_from_RBA_output.R`
- -  `4d_enigma-toolbox-RBA_Schaefer200.py`
- -  `4e_create_3D_niftis_RBA_Melbourne32.sh`
- -  `4f_MRIcroGL_render.py`
- -  `4g_enigma-toolbox-Univariate_Schaefer200.py`
- -  `4h_create_3D_niftis_Univariate_Melbourne32.sh`
- -  `4i_MRIcroGL_Univariate_render.py`
- -  `5_quantify_missing_activation_data.R`
- -  `6_demographic_tables.R`
- -  `7_tb-fMRI-predict-outcome.ipynb`
- -  `8_ML_plotting.R`
+ -  `1_create_input_features.py`                            Data preparation 
+ -  `2_univariate_CBT_outcome_analyses.R`                   Univariate analyses
+ -  `3_create_plots_univariate_sensitivity_analyses.R`      Plotting of univariate sensitivity analyses
+ -  `4a_enigma-toolbox-Univariate_Schaefer200.py`           Whole-brain cortical univariate results visualization
+ -  `4b_create_3D_niftis_Univariate_Melbourne32.sh`         Whole-brain subcortical univariate results visualization I
+ -  `4c_MRIcroGL_Univariate_render.py`                      Whole-brain subcortical univariate results visualization II
+ -  `5_quantify_missing_activation_data.R`                  Quality control: missing data
+ -  `6_ML_CBT_outcome_prediction.ipynb`                     Machine learning analyses
+ -  `7_demographic_tables.R`                                Demographic data tables
+ -  `9_ML_plotting.R`                                       Machine learning results visualization
+   
+ `bayesian_analyses/`                                       Bayesian analyses and data visualization
+
+ -  `1-1a_syntax_RBA_ROI.sh`                                Bayesian ROI analysis syntax
+ -  `1-1b_syntax_RBA_ROI_COMBAT.sh`                         Bayesian ROI analysis syntax - COMBAT-corrected
+ -  `2-1c_submit_sbatch_RBA_ROI.sh`                         Bayesian ROI analysis submission script
+ -  `2-2a_syntax_RBA_whole-brain.sh`                        Bayesian whole-brain analysis syntax
+ -  `2-2b_syntax_RBA_whole-brain_COMBAT.sh`                 Bayesian whole-brain analysis syntax - COMBAT-corrected
+ -  `2-2c_submit_sbatch_RBA_whole-brain.sh`                 Bayesian whole-brain analysis submission script
+ -  `3a_improve_RBA_ridge_plots_ROI.R`                      Bayesian ROI results visualization
+ -  `3b_improve_RBA_ridge_plots_whole-brain.R`              Bayesian whole-brain results visualization I
+ -  `3c_extract_P_plus_values_SchaeferMelbourne_from_RBA_output.R`  Bayesian whole-brain results visualization II
+ -  `3d_enigma-toolbox-RBA_Schaefer200.py`                  Bayesian whole-brain results visualization III
+ -  `3e_create_3D_niftis_RBA_Melbourne32.sh`                Bayesian ROI results visualization IV
+ -  `3f_MRIcroGL_render.py`                                 Bayesian ROI results visualization V
    
 ### Acknowledgements 
 
