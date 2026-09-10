@@ -2,6 +2,8 @@
 
 This repository accompanies the ENIGMA-OCD manuscript available in [this preprint](https://www.medrxiv.org/content/10.64898/2026.03.13.26348316v1) on MedRxiv. It contains all scripts used for multimodal data preprocessing and quality control.
 
+This project is part of a larger ENIGMA-OCD analysis of inhibitory control task activation in OCD (see [Dzinalija et al. (2025), *BioRxiv preprint*](https://doi.org/10.1101/2025.10.22.683868). The scripts in this repository take the processed, quality-controlled, and parcellated functional MRI data extracted in the previous project as the starting point for univariate and machine learning analysis. For details of the MRI data pre-processing and processing pipeline, as well as the corresponding code, please refer to [this repository](https://github.com/nadza-dz/task-based-fMRI-processing-pipeline-ENIGMA-OCD).
+
 ### Structure
 
  -  `1_create_input_features.py`                            Data preparation 
