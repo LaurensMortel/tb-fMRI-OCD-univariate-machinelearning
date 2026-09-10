@@ -7,9 +7,9 @@ This repository accompanies the ENIGMA-OCD manuscript available in [this preprin
  -  `1_create_input_features.py`                            Data preparation 
  -  `2_univariate_CBT_outcome_analyses.R`                   Univariate analyses
  -  `3_create_plots_univariate_sensitivity_analyses.R`      Plotting of univariate sensitivity analyses
- -  `4a_enigma-toolbox-Univariate_Schaefer200.py`           Whole-brain cortical univariate results visualization
- -  `4b_create_3D_niftis_Univariate_Melbourne32.sh`         Whole-brain subcortical univariate results visualization I
- -  `4c_MRIcroGL_Univariate_render.py`                      Whole-brain subcortical univariate results visualization II
+ -  `4a_enigma-toolbox-Univariate_Schaefer200.py`           Univariate whole-brain cortical results visualization
+ -  `4b_create_3D_niftis_Univariate_Melbourne32.sh`         Univariate whole-brain subcortical results prep for visualization 
+ -  `4c_MRIcroGL_Univariate_render.py`                      Univariate whole-brain subcortical results visualization 
  -  `5_quantify_missing_activation_data.R`                  Quality control: missing data
  -  `6_ML_CBT_outcome_prediction.ipynb`                     Machine learning analyses
  -  `7_demographic_tables.R`                                Demographic data tables
@@ -24,11 +24,11 @@ This repository accompanies the ENIGMA-OCD manuscript available in [this preprin
  -  `2-2b_syntax_RBA_whole-brain_COMBAT.sh`                 Bayesian whole-brain analysis syntax - COMBAT-corrected
  -  `2-2c_submit_sbatch_RBA_whole-brain.sh`                 Bayesian whole-brain analysis submission script
  -  `3a_improve_RBA_ridge_plots_ROI.R`                      Bayesian ROI results visualization
- -  `3b_improve_RBA_ridge_plots_whole-brain.R`              Bayesian whole-brain results visualization I
- -  `3c_extract_P_plus_values_SchaeferMelbourne_from_RBA_output.R`  Bayesian whole-brain results visualization II
- -  `3d_enigma-toolbox-RBA_Schaefer200.py`                  Bayesian whole-brain results visualization III
- -  `3e_create_3D_niftis_RBA_Melbourne32.sh`                Bayesian ROI results visualization IV
- -  `3f_MRIcroGL_render.py`                                 Bayesian ROI results visualization V
+ -  `3b_improve_RBA_ridge_plots_whole-brain.R`              Bayesian whole-brain results visualization 
+ -  `3c_extract_P_plus_values_SchaeferMelbourne_from_RBA_output.R`  Bayesian whole-brain cortical results prep for visualization 
+ -  `3d_enigma-toolbox-RBA_Schaefer200.py`                  Bayesian whole-brain cortical results visualization 
+ -  `3e_create_3D_niftis_RBA_Melbourne32.sh`                Bayesian ROI subcortical results prep visualization
+ -  `3f_MRIcroGL_render.py`                                 Bayesian ROI subcortical results visualization 
    
 ### Acknowledgements 
 
